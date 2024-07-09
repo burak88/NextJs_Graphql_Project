@@ -1,5 +1,5 @@
 {
-  "name": "next_with_graphql",
+  "name": "nextjs-user-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@apollo/server": "^4.9.5",
+    "@as-integrations/next": "^3.0.0",
+    "apollo-datasource-mongodb": "^0.6.0",
+    "graphql": "^16.8.1",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.0.2",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "react-hook-form": "^7.48.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.0.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }
